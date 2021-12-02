@@ -10,6 +10,8 @@ func zeroptr(iptr *int) {
 	*iptr = 0
 }
 
+//The &i syntax gives the memory address of i, i.e. a pointer to i.
+
 func main() {
 	i := 1
 	fmt.Println("initial:", i)
